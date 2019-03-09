@@ -65,8 +65,7 @@ s_1 = s.str.split("\n")
 
 
 print(s_1)
-#print(cll)
-#print(claim_df)
+
 #saving the series to a CSV
 s_1.to_csv('claim_list.csv', index = False, header = False)
 ##copying the saved csv to a DF.
@@ -74,3 +73,4 @@ s_1.to_csv('claim_list.csv', index = False, header = False)
 #print(claim_df)
 #col_df.to_csv('claim_list.csv', index = False, header = False)
 
+#removed unawanted lines
